@@ -6,5 +6,7 @@ for symb in punctuation:
     text = text.replace(symb, '')
 
 words = text.split()
-print(words)
+
+print("Количество разных слов:", len(set(words)))
+
 
